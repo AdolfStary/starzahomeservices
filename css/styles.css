@@ -4045,7 +4045,7 @@ textarea.form-control-lg {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   display: flex;
-  flex-wrap: inherit;
+  /*flex-wrap: inherit;*/
   align-items: center;
   justify-content: space-between;
 }
@@ -4082,6 +4082,8 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  background-color: #212529a7;
+  border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -11384,7 +11386,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 14rem;
+    height: 10rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
